@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.75rem;
+}
+
+h5 {
+  margin: 1rem 0rem 1rem 0.5rem;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  margin: 0.75rem;
+}
+
+.calculator_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.description_container {
+  background-color: brown;
+  color: aliceblue;
+  height: 320px;
+  margin: 2rem;
+  width: 600px;
+}
+
+.calculator {
+  background-color: brown;
+  height: 550px;
+  width: 600px;
+}
+
+.calculator_screen {
+  align-items: center;
+  background-color: darkslategrey;
+  border: 1px solid black;
+  display: flex;
+  height: 130px;
+  justify-content: right;
+}
+
+.calculator_screen_value {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.calculator_middle_panel {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 300px;
+}
+
+.calculator_middle_panel_item {
+  align-items: center;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.calculator_middle_panel_item:hover {
+  font-size: 2.3rem;
+}
+
+.calculator_middle_panel_item_calculate {
+  align-items: center;
+  background-color: orange;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  justify-content: center;
+}
+
+.calculator_middle_panel_item_calculate:hover {
+  font-size: 1.9rem;
+}
+
+.calculator_bottom_panel {
+  background-color: orange;
+  height: 120px;
+  width: 100%;
+}
+
+.calculator_bottom_panel_item_space {
+  align-items: center;
+  background-color: orange;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  height: 120px;
+  justify-content: center;
+}
+
+.calculator_bottom_panel_item_space {
+  cursor: pointer;
+}
+
+.calculator_bottom_panel_item_space:hover {
+  cursor: pointer;
+  font-size: 2.2rem;
+}

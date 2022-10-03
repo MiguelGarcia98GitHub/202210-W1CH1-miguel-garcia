@@ -1,0 +1,24 @@
+{
+  "name": "challenge-week-1-dia-1",
+  "version": "1.0.0",
+  "description": "HTML CSS JS Calculadora",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelGarcia98GitHub/202210-W1CH1-miguel-garcia.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "miguel garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelGarcia98GitHub/202210-W1CH1-miguel-garcia/issues"
+  },
+  "homepage": "https://github.com/MiguelGarcia98GitHub/202210-W1CH1-miguel-garcia#readme"
+}
